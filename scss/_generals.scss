@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+}
+
+body{
+    background-image: url(../images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 270px) top;
+}
+
+@media (max-width:768px){
+    body{
+        background-position: calc(50% + 0px) top;
+        background-size: 400px 400px;
+    }
+}

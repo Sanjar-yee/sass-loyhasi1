@@ -1,0 +1,63 @@
+.testimonials {
+    padding: 50px 0 67px 0;
+    background-image: url(../images/test1.png), url(../images/test4.png), url(../images/test3.png), url(../images/test2.png);
+    background-repeat: no-repeat;
+    background-position: 186px 264px, calc(100% - 186px) 264px, calc(100% - 320px) 534px, 322px 534px;
+}
+
+.testimonials-text {
+    max-width: 569px;
+    line-height: 32px;
+    margin: 0 auto;
+    color: #636066;
+    text-align: center;
+    margin-bottom: 50px;
+    &::before {
+        content: "";
+        width: 42px;
+        height: 42px;
+        display: block;
+        background-image: url(../images/sALOM.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
+.testimonial-img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -30px;
+
+}
+
+.testimonial-name {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.testimonial-job {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 46px;
+}
+
+.testimonila-btn-box {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.testimonial-btn {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #DEBAD9;
+    &:first-child {
+        background-color: #8643dc;
+    }
+}

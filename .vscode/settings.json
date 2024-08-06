@@ -1,0 +1,30 @@
+{
+    "liveSassCompile.settings.formats": [
+      //by default generate css in root directory
+      {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/css",
+        "savePathReplacementPairs": null
+      },
+  
+      //generate compressed css 
+      {
+        "format": "compressed",
+        "extensionName": ".min.css",
+        "savePath": "/css",
+        "savePathReplacementPairs": null
+      }
+    ],
+    "css.styleSheets": [
+  
+    ],
+    "emmet.syntaxProfiles": {
+        
+    },
+    "liveServer.settings.port": 5502,
+    "json.schemas": [
+      
+    ]
+  }
+  

@@ -1,0 +1,24 @@
+.clients {
+    .section-heading {
+        margin-bottom: 98px;
+        max-width: 140px;
+    }
+}
+
+.clients-list {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    margin: -30px -50px;
+}
+
+.clients-item {
+    max-width: 170px;
+}
+
+@media (max-width:768px){
+    .clients-logo{
+        max-width: 260px;
+    }
+}
